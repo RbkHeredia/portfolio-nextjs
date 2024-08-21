@@ -9,10 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'custom-gradient': 'linear-gradient(6deg, rgba(231,15,170,1) 0%, rgba(6,188,251,1) 100%)',
+        'lotr':"url('/lotrmap.jpg')"
       },
+      colors: {
+        'gold-dark':'#B8860B',
+        'gold-light':'#D4AF37',
+      }
     },
   },
   plugins: [],
