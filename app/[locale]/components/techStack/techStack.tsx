@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Ring from "../ring/ring";
 import { faCss3, faFigma, faGithub, faHtml5, faJava, faJs, faNodeJs, faReact, faSass } from "@fortawesome/free-brands-svg-icons";
+import { useTranslations } from "next-intl";
 
 const techs = [
   {id:1, icon:<FontAwesomeIcon icon={faJs} size="4x"  className="m-10 w-[3rem] md:m-20 text-gold-dark max-h[2rem] md:max-h-[4rem]" />},
@@ -15,11 +16,13 @@ const techs = [
 ]
 
 export default function TechStack(){
+
+  const t = useTranslations("home")
   return(
-    <div className="my-[5rem] mx-[10%]">
-      <h2 className="md:text-5xl text-center">My tech Stack</h2>
+    <div id="" className="my-[5rem]  flex items-center flex-col">
+      <h2 className="md:text-5xl text-center">My tech Stack {t("title")}</h2>
       <p className="md:text-2xl text-center"> Technologies I’ve been working with recently</p>
-      <div className="my-[5rem] flex-wrap flex mx-[10%]">
+      <div className="my-[5rem] flex-wrap flex mx-[10%] justify-center flex">
       {techs.map((tech)=>(
         <Ring key={tech.id}>
         {tech.icon}

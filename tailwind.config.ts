@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'custom-gradient': 'linear-gradient(6deg, rgba(231,15,170,1) 0%, rgba(6,188,251,1) 100%)',
-        'lotr':"url('/lotrmap.jpg')"
+        'lotr':"url('/lotrmap.jpg')",
+        'bg-gold':"url('/bg-portfolio.png')"
       },
       colors: {
         'gold-dark':'#B8860B',

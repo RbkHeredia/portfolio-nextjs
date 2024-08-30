@@ -1,0 +1,38 @@
+export const projectsInfo = [
+  {
+    id: 1,
+    name: "landingPage.name",
+    description: "landingPage.description",
+    tecnologias: ["CSS", "React", "Webpack", "FontAwesome"],
+    imagen: "/freelance.jpg",
+    link: "https://rbkheredia.github.io/landing-page-freelance/",
+    git: "https://github.com/RbkHeredia/landing-page-freelance",
+  },
+  {
+    id: 2,
+    name: "register.name",
+    description: "register.description",
+    tecnologias: ["React", "CSS", "MUI Material"],
+    imagen: "/steps.jpg",
+    link: "https://rbkheredia.github.io/form-register/",
+    git: "https://github.com/RbkHeredia/form-register",
+  },
+  {
+    id: 3,
+    name: "card.name",
+    description: "card.description",
+    tecnologias: ["React", "MUI Material", "CSS"],
+    imagen: "/challenge.jpg",
+    link: "https://rbkheredia.github.io/fm-card/",
+    git: "https://github.com/RbkHeredia/fm-card",
+  },
+  {
+    id: 4,
+    name: "news.name",
+    description: "news.description",
+    tecnologias: ["React", "Bootstrap React", "Vite", "CSS"],
+    imagen: "/news.jpg",
+    link: "https://rbkheredia.github.io/news-page-challenge/",
+    git: "https://github.com/RbkHeredia/news-page-challenge",
+  },
+];

@@ -1,0 +1,23 @@
+{
+  "home": {
+    "title": "Hello"
+  },
+  "technologies": {
+    "register": {
+      "name": "Registration in steps",
+      "description": "This step-by-step form that works as a registration for a freelance user page, uses React as a framework, CSS to style the app skeleton, and some MUI Material components."
+    },
+    "card": {
+      "name": "Challenge Card",
+      "description": "This is my second Frontend Mentor challenge, I chose a basic card that took me approximately 2 hours. I used react as framework, styling the components with css. On this occasion I took the opportunity to use the Vite compiler, it was a fast and agile experience for me."
+    },
+    "landingPage": {
+      "name": "Landing page Freelance",
+      "description": "This sample landing page was created for a client working as a freelance. It is completely customized by css, using libraries like fontAwesome, using React as a framework."
+    },
+    "news": {
+      "name": "News Challenge",
+      "description": "FrontEnd Mentor Challenge in which I was able to put into practice my knowledge of Bootstrap React, the management of its grid tools, and responsive design. It is developed with React, Vite and CSS to style some components."
+    }
+  }
+}

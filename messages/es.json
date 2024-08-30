@@ -1,0 +1,23 @@
+{
+  "home": {
+    "title": "Hola"
+  },
+  "technologies": {
+    "register": {
+      "name": "Registro en pasos",
+      "description": "Este formulario en pasos que funciona como registro para una página de usuarios freelancers, utiliza React como framework, CSS para estilizar el esqueleto de la app, y algunos componentes de MUI Material."
+    },
+    "card": {
+      "name": "Challenge Card",
+      "description": "Este es mi segundo challenge de Frontend Mentor, elegí una card básica en la que demoré aproximadamente 2 hs. Usé como framework react, estilizando los componentes con css. En esta ocasion aproveché para utilizar el compilador Vite, me resultó una experiencia rápida y ágil."
+    },
+    "landingPage": {
+      "name": "Landing page Freelance",
+      "description": "Esta landing page modelo fue creada para un cliente trabajando como freelance. Está personalizado en su totalidad por css, utilizando librerias como fontAwesome, utilizando React como framework."
+    },
+    "news": {
+      "name": "Challenge Noticias",
+      "description": "Challenge de FrontEnd Mentor en el cual pude poner en práctica mis conocimientos de Bootstrap React, el manejo de sus herramientas grid, y diseño responsivo. Está desarrollado con React, Vite y CSS para estilizar algunos componentes"
+    }
+  }
+}
