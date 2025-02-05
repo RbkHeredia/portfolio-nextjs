@@ -12,7 +12,7 @@ type cardProjectType = {
   title:string,
   description:string,
   urlPrev:string,
-  urlGit:string,
+  urlGit?:string,
   techs:string[]
 }
 
@@ -30,7 +30,7 @@ export default function CardProject({img, title, description, urlPrev, urlGit, t
       </div>
       <div className={`${uncial.className} flex gap-4 mt-2 text-gold-dark absolute bottom-0 my-2`}>
         <Link target="_blank" href={urlPrev}><FontAwesomeIcon icon={faCode} /> Live preview</Link>
-        <Link target="_blank" href={urlGit}><FontAwesomeIcon icon={faGithub} /> View Code</Link>
+        {urlGit && <Link target="_blank" href={urlGit}><FontAwesomeIcon icon={faGithub} /> View Code</Link>}
       </div>
     </div>
   )

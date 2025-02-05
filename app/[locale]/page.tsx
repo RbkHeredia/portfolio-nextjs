@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Intro from "./components/intro/intro";
 import TechStack from "./components/techStack/techStack";
 import Projects from "./components/projects/projects";
+import Footer from "./components/footer/footer";
 
 
 export default function Home() {
@@ -11,6 +11,7 @@ export default function Home() {
       <Intro />
       <TechStack />
       <Projects />
+      <Footer/>
     </main>
   );
 }

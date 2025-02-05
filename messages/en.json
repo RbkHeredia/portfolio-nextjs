@@ -18,6 +18,41 @@
     "news": {
       "name": "News Challenge",
       "description": "FrontEnd Mentor Challenge in which I was able to put into practice my knowledge of Bootstrap React, the management of its grid tools, and responsive design. It is developed with React, Vite and CSS to style some components."
+    },
+    "bio": {
+      "name": "Professional Portfolio",
+      "description": "Developed with Next.js, Tailwind CSS, and Framer Motion, this site offers smooth navigation and an elegant interface that highlights creativity and experience."
+    },
+    "empowerit": {
+      "name": "Web Development for EmpowerIT",
+      "description": "Design and development of the EmpowerIT web platform, optimizing the user experience with Next.js, Tailwind CSS, and animations with Framer Motion. A modern, dynamic, and responsive site that reflects the company's technological innovation."
+    },
+    "okinawa": {
+      "name": "Web Development for Okinawa HealthTech",
+      "description": "Creation of the Okinawa HealthTech website, an innovative platform in the healthcare and technology sector. Implemented with Next.js, MaterialUI, and CSS, ensuring a modern, smooth, and optimized interface for the best user experience."
+    },
+    "laburar": {
+      "name": "Final UX/UI Project – Digital Xperts (Codo a Codo 2024)",
+      "description": "Group project developed in the UX/UI course at Codo a Codo 2024, where we designed a digital platform focused on improving user experience. We used Figma for prototyping and design, applying principles of accessibility, usability, and user-centered design."
     }
+  },
+  "components": {
+    "navbar": {
+      "about": "About",
+      "technologies": "Technologies",
+      "projects": "Projects",
+      "contact": "Contact"
+    }
+  },
+  "intro": {
+    "title": "Hi, I'm Rebeca, I design and develop digital experiences."
+  },
+  "stack": {
+    "title": "My tech Stack",
+    "subt": "Technologies I’ve been working with recently"
+  },
+  "projects": {
+    "title": "My projects",
+    "subt": "Things I’ve built so far"
   }
 }

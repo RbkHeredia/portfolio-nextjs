@@ -17,7 +17,7 @@ export const projectsInfo = [
     link: "https://rbkheredia.github.io/form-register/",
     git: "https://github.com/RbkHeredia/form-register",
   },
-  {
+  /* {
     id: 3,
     name: "card.name",
     description: "card.description",
@@ -25,7 +25,7 @@ export const projectsInfo = [
     imagen: "/challenge.jpg",
     link: "https://rbkheredia.github.io/fm-card/",
     git: "https://github.com/RbkHeredia/fm-card",
-  },
+  }, */
   {
     id: 4,
     name: "news.name",
@@ -34,5 +34,37 @@ export const projectsInfo = [
     imagen: "/news.jpg",
     link: "https://rbkheredia.github.io/news-page-challenge/",
     git: "https://github.com/RbkHeredia/news-page-challenge",
+  },
+  {
+    id: 5,
+    name: "bio.name",
+    description: "bio.description",
+    tecnologias: ["React", "NextUI", "NextJs", "CSS", "Tailwind"],
+    imagen: "/angeles-page.png",
+    link: "https://www.angeleslucerobringas.com/",
+  },
+  {
+    id: 6,
+    name: "empowerit.name",
+    description: "empowerit.description",
+    tecnologias: ["React", "NextUI", "NextJs", "CSS", "Tailwind"],
+    imagen: "/empowerit-page.png",
+    link: "https://www.empowerit.io/",
+  },
+  {
+    id: 7,
+    name: "okinawa.name",
+    description: "okinawa.description",
+    tecnologias: ["React", "MaterialUI", "NextJs", "CSS"],
+    imagen: "/okinawa-page.png",
+    link: "https://www.okinawahealthtech.com/",
+  },
+  {
+    id: 8,
+    name: "laburar.name",
+    description: "laburar.description",
+    tecnologias: ["Figma", "Material Design", "Photoshop", "Illustrator"],
+    imagen: "/laburar.png",
+    link: "https://www.figma.com/proto/sIdDaNVNjMOCtNLfQSlmfb/Equipo-9---Digital-Xperts---Comisi%C3%B3n-24047---Dise%C3%B1o-UX%2FIU-Codo-a-Codo---2024?node-id=4162-788&starting-point-node-id=4162%3A788&scaling=scale-down-width&content-scaling=fixed",
   },
 ];

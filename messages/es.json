@@ -18,6 +18,41 @@
     "news": {
       "name": "Challenge Noticias",
       "description": "Challenge de FrontEnd Mentor en el cual pude poner en práctica mis conocimientos de Bootstrap React, el manejo de sus herramientas grid, y diseño responsivo. Está desarrollado con React, Vite y CSS para estilizar algunos componentes"
+    },
+    "bio":{
+        "name":"Portfolio Profesional",
+        "description":"Desarrollado con Next.js, Tailwind CSS y Framer Motion, este sitio ofrece una navegación fluida y una interfaz elegante que resalta su creatividad y trayectoria."
+      },
+      "empowerit": {
+        "name":"Desarrollo Web para EmpowerIT",
+        "description":"Diseño y desarrollo de la plataforma web de EmpowerIT, optimizando la experiencia de usuario con Next.js, Tailwind CSS y animaciones con Framer Motion. Un sitio moderno, dinámico y responsive que refleja la innovación tecnológica de la empresa."
+      },
+      "okinawa": {
+        "name":"Desarrollo Web para Okinawa HealthTech",
+        "description":"Creación de la web de Okinawa HealthTech, una plataforma innovadora en el sector de la salud y tecnología. Implementación con Next.js, MaterialUI y CSS, asegurando una interfaz moderna, fluida y optimizada para la mejor experiencia de usuario. "
+      },
+      "laburar":{
+        "name":"Proyecto Final UX/UI – Digital Xperts (Codo a Codo 2024)",
+        "description":"Proyecto grupal desarrollado en el curso de UX/UI de Codo a Codo 2024, donde diseñamos una plataforma digital enfocada en mejorar la experiencia de usuario. Usamos Figma para prototipado y diseño, aplicando principios de accesibilidad, usabilidad y diseño centrado en el usuario."
+      }
+  },
+  "components":{
+    "navbar":{
+      "about":"Sobre mi",
+      "technologies":"Tecnologias",
+      "projects":"Proyectos",
+      "contact":"Contacto"
     }
+  },
+  "intro":{
+    "title":"Hola, soy Rebeca, diseño y desarrollo experiencias digitales."
+  },
+  "stack":{
+    "title":"Mis conocimientos",
+    "subt":"Tencnologías trabajadas recientemente."
+  },
+  "projects":{
+    "title":"Mis proyectos",
+    "subt":"Lo que he creado hasta ahora."
   }
 }
