@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { useTranslations } from "next-intl";
+import { PoppinsFont } from "@/app/fonts/poppins";
 
 type cardProjectType = {
   img:string,
@@ -22,7 +23,7 @@ export default function CardProject({img, title, description, urlPrev, urlGit, t
     <div className="bg-white relative border border-[#B8860B] rounded-[20px] p-[1rem] max-w-[330px] pb-[3rem]">
       <Image src={img} alt="project" width={300} height={100} className="rounded-[16px]" />
       <p className={`${uncial.className} text-gold-dark mt-3`}>{t(title)}</p>
-      <p>{t(description)}</p>
+      <p className={PoppinsFont.className}>{t(description)}</p>
       <div className="flex flex-wrap gap-2 mt-2">
         {techs.map((tech,i)=>(
           <Chip key={i} tech={tech}/>

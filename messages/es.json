@@ -54,5 +54,11 @@
   "projects":{
     "title":"Mis proyectos",
     "subt":"Lo que he creado hasta ahora."
+  },
+  "about":{
+    "title":"Sobre mi",
+    "p1":"Soy Rebeca Heredia, desarrolladora frontend con experiencia en la creación de interfaces dinámicas y optimizadas. ",
+    "p2":"Me apasiona el diseño UI/UX, enfocándome en la accesibilidad, la performance y la interacción fluida de las aplicaciones web. ",
+    "p3":"Siempre estoy en constante aprendizaje, buscando nuevas tecnologías y metodologías para mejorar mis habilidades y aportar valor en cada proyecto."
   }
 }
