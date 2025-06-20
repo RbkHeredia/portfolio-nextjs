@@ -19,6 +19,10 @@
       "name": "News Challenge",
       "description": "FrontEnd Mentor Challenge in which I was able to put into practice my knowledge of Bootstrap React, the management of its grid tools, and responsive design. It is developed with React, Vite and CSS to style some components."
     },
+    "printorium": {
+      "name": "Landing Page Printorium",
+      "description": "Landing page desarrollada únicamente con HTML y CSS moderno. Utiliza container queries, color-mix, grid responsivo y variables CSS globales para construir una interfaz moderna e inteligente basada en un diseño libre de Figma Community. Proyecto visual, sin interactividad JavaScript."
+    },
     "bio": {
       "name": "Professional Portfolio",
       "description": "Developed with Next.js, Tailwind CSS, and Framer Motion, this site offers smooth navigation and an elegant interface that highlights creativity and experience."

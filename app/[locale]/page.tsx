@@ -1,7 +1,9 @@
-import TechStack from "./components/techStack/techStack";
-import Projects from "./components/projects/projects";
-import Footer from "./components/footer/footer";
-import Carousel from "./components/carousel/carousel";
+import dynamic from "next/dynamic";
+
+const Carousel = dynamic(() => import("./components/carousel/carousel"));
+const TechStack = dynamic(() => import("./components/techStack/techStack"));
+const Projects = dynamic(() => import("./components/projects/projects"));
+const Footer = dynamic(() => import("./components/footer/footer"));
 
 
 export default function Home() {

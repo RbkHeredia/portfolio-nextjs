@@ -1,3 +1,4 @@
+"use client";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Ring from "../ring/ring";
 import {
@@ -14,6 +15,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const techs = [
   {
@@ -147,7 +149,13 @@ const techs = [
 export default function TechStack() {
   const t = useTranslations("stack");
   return (
-    <div id="stacks" className="my-[5rem]  flex items-center flex-col">
+    <motion.div
+      initial={{ x: -100, opacity: 0 }} // Inicio desde la izquierda con opacidad 0
+      animate={{ x: 0, opacity: 1 }} // Se mueve al centro y aparece
+      transition={{ duration: 1, ease: "easeOut" }} // Transición suave
+      id="stacks"
+      className="my-[5rem] flex items-center flex-col"
+    >
       <h2 className="md:text-5xl text-center">{t("title")}</h2>
       <p className="md:text-2xl text-center"> {t("subt")}</p>
       <div className="my-[5rem] flex-wrap flex mx-[10%] justify-center flex">
@@ -155,6 +163,6 @@ export default function TechStack() {
           <Ring key={tech.id}>{tech.icon}</Ring>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 }

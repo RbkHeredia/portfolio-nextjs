@@ -1,6 +1,6 @@
+
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { motion } from "framer-motion";
 
 
 export default function Intro() {
@@ -29,14 +29,11 @@ export default function Intro() {
             height={2333}
           />
         </div>
-        <motion.h1
+        <h1
           className="md:w-3/6 text-xl md:text-4xl lg:text-6xl"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, ease: "easeOut" }}
         >
           {t("title")}
-        </motion.h1>
+        </h1>
       </div>
     </div>
   );

@@ -19,6 +19,9 @@ const cinzel = Cinzel({
 export const metadata: Metadata = {
   title: "Portfolio | Rbk",
   description: "Soy Rebeca, diseñadora y desarrolladora web. Creo experiencias digitales únicas utilizando las últimas tecnologías. Mira mis proyectos y hablemos pronto.",
+  icons: {
+    icon: "/RB.png"
+  }
 };
 
 export default async function LocaleLayout({

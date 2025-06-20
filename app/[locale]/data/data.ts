@@ -67,4 +67,13 @@ export const projectsInfo = [
     imagen: "/laburar.png",
     link: "https://www.figma.com/proto/sIdDaNVNjMOCtNLfQSlmfb/Equipo-9---Digital-Xperts---Comisi%C3%B3n-24047---Dise%C3%B1o-UX%2FIU-Codo-a-Codo---2024?node-id=4162-788&starting-point-node-id=4162%3A788&scaling=scale-down-width&content-scaling=fixed",
   },
+  {
+  id: 9,
+  name: "printorium.name",
+  description: "printorium.description",
+  tecnologias: ["HTML", "CSS", "Grid", "Container Queries", "Color Mix"],
+  imagen: "/printorium.jpg",
+  link: "https://rbkheredia.github.io/CSS-Moderno/",
+  git: "https://github.com/RbkHeredia/CSS-Moderno",
+}
 ];

@@ -1,6 +1,6 @@
 "use client"
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import Intro from "../intro/intro";
 import About from "../about/about";
 import Image from "next/image";
@@ -20,9 +20,10 @@ export default function Carousel() {
 
   return (
     <div className="relative w-full  flex items-center justify-center overflow-hidden">
-      <AnimatePresence mode="wait">
+      
         <motion.div
           key={index}
+          layoutId="carousel-content"
           initial={{ opacity: 0, x: 100 }}
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: -100 }}
@@ -31,13 +32,12 @@ export default function Carousel() {
         >
           {components[index]}
         </motion.div>
-      </AnimatePresence>
 
       <button
         onClick={prevSlide}
         className="absolute bottom-5 md:bottom-auto left-5 md:left-10 text-gold-600 bg-gold-dark bg-opacity-60 p-3 md:p-4 rounded-full hover:bg-opacity-80 transition"
       >
-        <Image src={'/arrow-left.png'} alt="prev" width={60} height={60} />
+        <Image loading="lazy" src={'/arrow-left.png'} alt="prev" width={60} height={60} />
       </button>
 
       <button
